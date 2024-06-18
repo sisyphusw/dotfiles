@@ -1,0 +1,45 @@
+# https://alacritty.org/config-alacritty.html
+
+import = [
+  #"~/.config/alacritty/themes/nord.toml"
+  #"~/.config/alacritty/themes/catppuccin-latte.toml"
+  #"~/.config/alacritty/themes/catppuccin-frappe.toml"
+  #"~/.config/alacritty/themes/catppuccin-macchiato.toml"
+  #"~/.config/alacritty/themes/catppuccin-mocha.toml"
+  #"~/.config/alacritty/themes/gruvbox_material_medium_dark.toml"
+  "~/.config/alacritty/themes/gruvbox_dark.toml"
+]
+
+[env]
+TERM = "screen-256color"
+
+[window]
+padding.x = 15
+padding.y = 15
+decorations = "None"
+
+[font]
+normal.style = "Regular"
+
+#normal.family = "JetBrainsMono Nerd Font"
+#normal.family = "FiraCode Nerd Font Mono"
+#normal.family = "Consolas ligaturized v3"
+#normal.family = "RobotoMono Nerd Font"
+#normal.family = "Source Code Pro"
+#normal.family = "Inconsolata Nerd Font"
+normal.family = "MonaspiceNe Nerd Font" # Ar Ne Rn Xe Kr
+size = 22
+
+#normal.family = "Cascadia Code NF"
+#size = 24.5
+
+#normal.family = "MonoLisa Nerd Font"
+#size = 22.5
+
+[keyboard]
+bindings = [
+  { key= "Insert", mods= "Control", action= "Copy" },
+  { key= "Insert", mods= "Shift", action= "Paste" }
+]
+
+

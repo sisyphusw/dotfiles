@@ -1,0 +1,56 @@
+ [pyprland]
+plugins = [
+     "scratchpads",
+#     "layout_center",
+#     "wallpapers"
+]
+#
+
+[scratchpads.terminal]
+command = "kitty --class scratchpad_terminal"
+lazy = true
+#unfocus = "hide"
+
+[scratchpads.volume]
+command = "pavucontrol"
+lazy = true
+
+# margin = 50
+# #excludes = "*"
+# allow_special_workspaces = false
+#
+# [scratchpads.editor]
+# animation = "fromTop" 
+# command = "kitty --class nvim-scratchpad --hold nvim "
+# class = "nvim-scratchpad"
+# size = "100% 100%"
+# max_size = "1900px 1010px"
+# #preserve_aspect = true
+# margin = 10
+# excludes = "*"
+#
+# #
+# [scratchpads.volume]
+# animation = "fromRight"
+# command = "pavucontrol"
+# class = "pavucontrol"
+# size = "40% 90%"
+# unfocus = "hide"
+# lazy = true
+# excludes = "*"
+
+
+[wallpapers]
+path = "/home/sisy/Pictures/wallpapers/"
+interval = 120 # change every hour
+extensions = ["png"]
+recurse = true
+
+[layout_center]
+margin = 60
+offset = [0, 30]
+#captive_focus = true
+next = "movefocus r"
+prev = "movefocus l"
+next2 = "movefocus d"
+prev2 = "movefocus u"

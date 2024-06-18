@@ -1,0 +1,29 @@
+modmap:
+  - name: neovim
+    application:
+      only: [Alacritty]
+    remap:
+      CapsLock:
+        held: Ctrl_L
+        alone: Esc
+        alone_timeout_millis: 1000
+  - name: tmux
+    application:
+      only: [Alacritty]
+    remap:
+      Shift_L:
+        held: Shift_L
+        alone: [Ctrl_L,B]
+        alone_timeout_millis: 1000
+      Shift_R:
+        held: Shift_R
+        alone: [Ctrl_L,B]
+        alone_timeout_millis: 1000
+
+
+# keymap:
+#   - name: firefox
+#     application:
+#       only: [firefox]
+#     remap:
+
