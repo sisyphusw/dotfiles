@@ -1,0 +1,9 @@
+[user]
+    email = sisyphus367@gmail.com
+    name = sisyphusw
+
+[init]
+    defaultBranch = main
+
+[safe]
+    directory = ~
