@@ -1,6 +1,9 @@
 set fish_greeting
 set -Ux EDITOR nvim
 
+# nvim mason bin
+fish_add_path -g $HOME/.local/share/nvim/mason/bin
+
 # tldr
 alias tf="tldr --list | fzf --preview 'tldr {1} --color=always' --preview-window=right,70% | xargs tldr"
 
